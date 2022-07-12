@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Sign-Up-Form</title>
+</head>
+<body>
+
+    <div id="image-header">
+
+        <div class="title">
+            <img src="odin.png">
+            Odin
+        </div>
+
+
+
+
+    </div>
+
+    <div id="form">
+        <form action="example.com/path" method="post">
+            <ul>
+                <li>
+    
+                    <label for="firstName">First Name: </label>
+                    <input type="text" id="firstName" placeholder="John" name="first_name" maxlength="20" required>
+    
+    
+    
+                </li>
+    
+                <li>
+                    <label for="lastName">First Name: </label>
+                    <input type="text" id="lastName" placeholder="Smith" name="last_name" maxlength="20" required>
+                </li>
+                
+                <li>
+                    <label for="userEmail">Email: </label>
+                    <input type="email" id="userEmail" name="email" placeholder="you@gmail.com" required>
+                </li>
+
+                <li>
+                    <label for="phoneNumber"> Phone Number (US):</label>
+                    <input type="text" id="phoneNumber" name="phone_number" placeholder="123-456-7890" pattern="\d{3}[\-]\d{3}[\-]\d{4}" required>
+                </li>
+
+                <li>
+                    <label for="userPassword">Password:</label>
+                    <input type="password" id="userPassword" name="password" pattern= "^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" title="Please use an uppercase, lowercase, and a number" required>
+                </li>
+
+                <li>
+                    <label for="confirmPassword">Confirm Password:</label>
+                    <input type="password" id="confirmPassword" required>
+                </li>
+
+            </ul>
+    
+            <button type="reset">Reset</button>
+    
+            <button type="submit">Submit</button>
+
+
+
+
+        </form>
+
+
+
+
+    </div>
+
+
+
+</body>
+</html>

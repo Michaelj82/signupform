@@ -1,0 +1,77 @@
+html,
+body{
+    height:100%;
+
+}
+body{
+    display: flex;
+    flex-direction: row;
+    min-width: 100%;
+    min-height: 100%;
+    margin: 0px;
+
+    border: solid;
+}
+
+#image-header{
+    border:solid;
+    border-color: red;
+    width: 35%;
+
+    background-image: url(craneceiling.jpg);
+    background-size: cover;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    min-width: 500px;
+    min-height: 700px;
+    height: 100%;
+
+
+
+}
+
+
+.title{
+    margin-top: 15vh;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    box-sizing: content-box;
+
+
+
+    background-color: black;
+    min-width: 100%;
+
+
+    font-size: 5em;
+    opacity: 75%;
+
+
+}
+
+.title > img{
+    height:1.5em;
+    width:auto;
+
+}
+
+
+#form{
+    border:solid;
+    border-color: aqua;
+    flex-grow: 1;
+}
+
+
+
+
+
+
+
+
